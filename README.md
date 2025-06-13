@@ -71,5 +71,15 @@ Este proyecto implementa un backend en FastAPI que permite la **recolección, al
 
 Para iniciar el servidor:
 
-```bash
+bash
 uvicorn main:app --host 0.0.0.0 --port 8123 --reload
+
+Si usas screen (recomendado en RPi):
+screen -S fastapi
+uvicorn main:app --host 0.0.0.0 --port 8123 --reload
+# Luego Ctrl + A, D para dejarlo en segundo plano
+
+## 🧠 Autor
+Héctor A.
+Proyecto de monitoreo ambiental IoT para fines educativos, experimentales y de aplicación en entornos rurales.
+Incluye trazabilidad, riego inteligente y respaldo local/remoto.
