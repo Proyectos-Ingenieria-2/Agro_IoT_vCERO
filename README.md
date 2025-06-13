@@ -77,7 +77,7 @@ uvicorn main:app --host 0.0.0.0 --port 8123 --reload
 Si usas screen (recomendado en RPi):
 screen -S fastapi
 uvicorn main:app --host 0.0.0.0 --port 8123 --reload
-# Luego Ctrl + A, D para dejarlo en segundo plano
+Luego Ctrl + A, D para dejarlo en segundo plano
 
 ## 🧠 Autor
 Héctor A.
